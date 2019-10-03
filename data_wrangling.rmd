@@ -1,0 +1,19 @@
+---
+title: "Data Wrangling I"
+author: "Alexis"
+date: "10/3/2019"
+output: github_document
+---
+
+```{r setup, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+litters_data = read_csv(file = "./data/FAS_litters.csv")
+
+```
+
+## R Markdown
+
